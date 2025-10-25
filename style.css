@@ -15,7 +15,6 @@ body {
   min-height: 100vh;
 }
 
-/* ENCABEZADO */
 header {
   width: 95%;
   text-align: center;
@@ -34,7 +33,6 @@ header p {
   margin: 0;
 }
 
-/* CONTENIDO PRINCIPAL */
 main {
   width: 92%;
   max-width: 400px;
@@ -48,11 +46,11 @@ main {
   align-items: flex-start;
 }
 
-/* POLÍTICA Y PRIVACIDAD */
+/* Política y Privacidad */
 .privacy-section {
   border: 1px solid #6de2ff60;
   border-radius: 8px;
-  padding: 8px 10px;
+  padding: 10px 12px;
   margin-bottom: 18px;
   background: rgba(255,255,255,0.03);
   width: 100%;
@@ -62,17 +60,16 @@ main {
 .section-title {
   font-size: 13px;
   font-weight: 600;
-  margin-bottom: 3px;
+  margin-bottom: 4px;
   color: #81faff;
 }
 
 .section-subtitle {
-  font-size: 10px;
+  font-size: 11px;
   color: #c3d4ff;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
-/* FORMULARIO */
 form {
   width: 100%;
 }
@@ -87,6 +84,7 @@ label {
   margin-left: 2px;
 }
 
+select,
 input[type="text"],
 input[type="email"],
 textarea,
@@ -102,6 +100,7 @@ input[type="file"] {
   display: block;
 }
 
+select:hover,
 input[type="text"]:hover,
 input[type="email"]:hover,
 textarea:hover,
@@ -110,7 +109,9 @@ input[type="file"]:hover {
   box-shadow: 0 0 5px #6de2ff40;
 }
 
-input:focus, textarea:focus {
+select:focus,
+input:focus, 
+textarea:focus {
   border-color: #6de2ff;
   box-shadow: 0 0 5px #6de2ff50;
   outline: none;
@@ -142,7 +143,6 @@ textarea {
   cursor: pointer;
 }
 
-/* BOTÓN */
 button {
   background: linear-gradient(90deg, #4d9eff, #6e00ff);
   border: none;
@@ -170,7 +170,6 @@ button:hover:enabled {
   box-shadow: 0 0 18px #6de2ff;
 }
 
-/* CORREOS DE SOPORTE */
 .support-emails {
   margin-top: 18px;
   font-size: 12px;
@@ -185,7 +184,6 @@ button:hover:enabled {
   margin: 2px 0;
 }
 
-/* COPYRIGHT */
 .copyright {
   width: 100%;
   background: #000;
@@ -199,7 +197,6 @@ button:hover:enabled {
   left: 0;
 }
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
   main {
     width: 94%;
@@ -210,7 +207,7 @@ button:hover:enabled {
     font-size: 23px;
   }
 
-  label, input, textarea, button, .section-title, .section-subtitle {
+  label, select, input, textarea, button, .section-title, .section-subtitle {
     font-size: 11.5px;
   }
 
