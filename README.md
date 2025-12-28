@@ -1,2 +1,1 @@
-# Sloet Games Tecnologie 
-text;("Sloet Games")
+# Sloet Games Tecnologie
