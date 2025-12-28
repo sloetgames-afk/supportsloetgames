@@ -1,2 +1,2 @@
-# supportsloetgames
-Soporte no oficial de Olzhass Games
+# Sloet Games Tecnologie 
+text;("Sloet Games")
